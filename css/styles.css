@@ -1,0 +1,442 @@
+/* NavBar */
+
+#title {
+    background-color: black;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 11;
+
+ 
+}
+
+.container-fluid {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.navbar {
+    height: 85px;
+}
+
+
+.nav-link {
+    text-align: center;
+    color: white;
+    font-family: 'Changa One', cursive;
+    letter-spacing: 2px;
+    font-size: 80%;
+    margin: 0 5px;
+  
+
+}
+
+.nav-link:hover {
+    color: cadetblue;
+}
+
+.navbar-text {
+    text-align: center;
+    font-family: 'Ubuntu';
+    color: white;
+    letter-spacing: 2px;
+    font-size: 1.2rem ;
+    overflow: auto;
+    white-space: nowrap;
+    margin: 0 300px;
+}
+
+.navbar-text:hover {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+.btn {
+    color: black;
+}
+
+.btn:hover {
+    background-color: cadetblue;
+    border-color: cadetblue;
+}
+
+.fa-solid {
+    color: black;
+}
+
+
+/* Intro */
+
+#intro {
+    background-color: black;
+}
+
+.div1 {
+    padding: 5px;
+}
+
+.background-video {
+    background-position-x: center;
+    height: 100vh;
+    text-align: center;
+    
+}
+
+.background-video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+    object-fit:fill;
+    opacity: .9;
+    padding: 0 2%;
+}
+
+.intrologo {
+    padding-top: 80px;
+    border-radius: 100%;
+    padding-bottom: 0px;
+    height: 60%;
+    position: relative;
+    z-index: 10;
+    
+}
+
+.introtitle {
+    color: white;
+    font-family: 'Montserrat';
+    position: relative;
+    z-index: 10;
+
+}
+
+.introbtn {
+    background-color: rgb(0, 0, 0,0);
+    border:white ;
+    border-style: solid;
+    border-width: 2px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Ubuntu';
+    position: relative;
+    z-index: 10;
+}
+
+.introbtn:hover {
+    border-color: cadetblue;
+    color: cadetblue;
+}
+
+/* Max */
+
+#max {
+    padding-bottom: 5%;
+    background-color: black;
+    color: white;
+}
+
+.maxdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    height: 700px;
+}
+
+
+.maxpic {
+    border-radius: 10%;
+    height: 600px;
+    margin-right: 5%;
+    margin top: 5%;
+
+}
+
+.maxtext {
+    text-align: center;
+    padding: 25% 10% 0%;
+    font-family: 'ubuntu';
+}
+
+.maxtext2 {
+    text-align: center;
+    padding: 5% 10% 0%;
+    font-family: 'ubuntu';
+    font-size: 1rem;
+}
+
+.aboutmax {
+    background-color: rgb(0, 0, 0,0);
+    border:white ;
+    border-style: solid;
+    border-width: 2px;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Ubuntu';
+    margin: 5% 40%;
+}
+
+.aboutmax:hover {
+    border-color: cadetblue;
+    color: cadetblue;
+}
+
+/* testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    height: 700px;
+
+}
+
+.people {
+    text-align: center;
+    font-family: 'ubuntu';
+    
+
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.test-image {
+    border-radius: 100% ;
+    height: 200px;
+    width: 200px;
+    margin-top: 5px;
+}
+
+.testimonial-text {
+    font-size: 1.5rem;
+}
+
+/* Footer */
+
+#footer {
+    padding: 1% 15%;
+    background-color: white;
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.social-icon {
+    margin: 20px 10px;
+    color: rgb(19, 18, 19);
+    text-align: right;
+}
+.social-icon:hover {
+    color: cadetblue;
+}
+
+.footsocial {
+    text-align: right;
+
+}
+
+.footertext {
+    text-align: left;
+}
+
+
+.ftheading {
+    text-align: center;
+    font-family: 'Changa One';
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-family: 'Ubuntu' ;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+h3:hover {
+    color: cadetblue;
+}
+
+
+/* Contact Me -- Page 2 --- */
+
+#contactme {
+
+        background-color: black;
+        position: relative;
+        z-index: 10;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 10%;
+}
+
+.cntform {
+    padding-top: 2%;
+
+}
+
+.contactlogo {
+    height: 600px;
+    padding-right: 5%;
+}
+
+.cntlogo {
+    color: white;
+    text-align: center;
+}
+
+.cnt-icon {
+    color: white;
+    padding: 1%;
+    padding-bottom: 35%;
+}
+
+.cnt-icon:hover {
+        color: cadetblue;
+    }
+}
+
+.form-check-label {
+    color: white;
+}
+
+.cntform {
+    width: 500px;
+    
+}
+
+.selector {
+    background-color: white;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 5% ;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+
+}
+
+.formtext {
+    color: black;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.formtext:hover {
+    color: black;
+}
+
+.selector1 {
+    background-color: white;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    float: left;
+
+}
+
+.selector2 {
+    background-color: white;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 5% ;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    margin-left: 270px;
+}
+
+.selector3 {
+    background-color: white;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    float: left;
+}
+
+.selector4 {
+    background-color: white;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 5% ;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    margin-left: 270px;
+}
+
+.selector5 {
+    background-color: white;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    float: left;
+}
+
+.selector6 {
+    background-color: white;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 5% ;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    margin-left: 270px;
+}
+
+.selector7 {
+    background-color: white;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 5% ;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    height: 200px;
+
+}
+
+#textbox {
+    height: 140px;
+    width: 450px;
+    padding-bottom:;
+}
+/* About me --Page 3--*/
+
+.thankyou {
+    background-color: white;
+    padding: 5%;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.tytext {
+    color: black;
+    text-align: center;
+}
+
+/* About me --Page 3--*/
+
