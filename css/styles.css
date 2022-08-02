@@ -188,6 +188,7 @@
 .aboutmax:hover {
     border-color: cadetblue;
     color: cadetblue;
+    text-decoration: none;
 }
 
 /* testimonials */
