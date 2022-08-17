@@ -11,6 +11,8 @@
     height: 85px;
 }
 
+.navbar-toggler {}
+
 .navbar-nav {
     left: 0;
 }
